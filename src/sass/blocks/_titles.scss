@@ -1,0 +1,16 @@
+.title {
+    margin-top: 40px;
+    color: #222222;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
