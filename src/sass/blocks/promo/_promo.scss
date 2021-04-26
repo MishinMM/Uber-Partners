@@ -1,0 +1,159 @@
+.promo {
+    min-height: 800px;
+    padding: 0 0 30px 0;
+    background-image: url('../img/bg/uber_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    &__hamburger {
+        display: none;
+    }
+    &__menu {
+        background-color: #212121;
+        height: 70px;
+        width: 101%;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        &-container {
+            height: 100%;
+            width: 1140px;
+            margin: 0 auto;
+            border: 2px solid red;
+        }
+        &-nav {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &-list {
+            width: 100%;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+            &-link {
+                color: #fff;
+                font-size: 15px;
+                font-weight: 300;
+                text-decoration: none;
+            }
+            &-divider {
+                height: 30px;
+                border-right: 2px dotted #000;
+                margin: 0 15px;
+            }
+        }
+    }
+    &__header {
+        min-height: 85px;
+        background-color: rgba($color: #000, $alpha: 0.6);
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-container {
+            height: 100%;
+            width: 1140px;
+            margin: 0 auto;
+            border: 2px solid red;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
+    &__logo-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+    }
+    &__logo-item {
+        display: flex;
+        align-items: center;
+    }
+    &__logo {
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+        img {
+            width: 100%;
+        }
+        &-title {
+            color: #fff;
+            font-size: 26px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        &-subtitle {
+            color: #888;
+            font-size: 13px;
+            font-weight: 400;
+            margin-top: 5px;
+        }
+    }
+    &__bell {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 35%;
+        height: 100%;
+    }
+    &__phone {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        &-title {
+            color: #fff;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 14px;
+            text-align: right;
+        }
+        &-link {
+            color: #fff;
+            font-size: 22px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+    &__title {
+        margin-top: 70px;
+        color: #fff;
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__subtitle {
+        color: #fff;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__content {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 30px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+    &__btn {
+        margin: 0 auto;
+        margin-top: 70px;
+    } 
+}
