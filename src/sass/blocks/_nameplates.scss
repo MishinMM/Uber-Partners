@@ -12,4 +12,8 @@
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
+    &_white {
+        background-color: #fff;
+        color: #000;
+    }
 }

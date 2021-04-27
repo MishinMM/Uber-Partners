@@ -1,0 +1,57 @@
+.car {
+    min-height: 630px;
+    padding: 70px 0;
+    background-image: url('../img/bg/car_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__img {
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+    &__descr {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        color: #222222;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 1200px) {
+    .car {
+        &__img {
+            width: 65%;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .car {
+        &__img {
+            width: 75%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .car {
+        &__img {
+            width: 95%;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .car {
+        &__img {
+            width: 100%;
+        }
+    }
+}

@@ -6,6 +6,9 @@
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+    &_white {
+        color: #fff;
+    }
 }
 
 .subtitle {
@@ -14,6 +17,9 @@
     font-weight: 400;
     line-height: 21px;
     text-align: center;
+    &_white {
+        color: #fff;
+    }
 }
 
 @media (max-width: 576px) {
