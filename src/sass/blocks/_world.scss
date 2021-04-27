@@ -1,0 +1,19 @@
+.world {
+    min-height: 500px;
+    padding: 70px 0;
+    background-image: url('../img/bg/world_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__link {
+        display: block;
+        margin-top: 400px;
+        color: $main-color;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}

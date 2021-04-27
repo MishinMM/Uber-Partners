@@ -10,7 +10,6 @@
 .container {
     width: 1140px;
     margin: 0 auto;
-    border: 2px solid red;
 }
 
 @media (max-width: 1200px) {
@@ -50,3 +49,6 @@
 @import 'blocks/mobile';
 @import 'blocks/car';
 @import 'blocks/conditions';
+@import 'blocks/world';
+@import 'blocks/footer';
+@import 'blocks/modal';

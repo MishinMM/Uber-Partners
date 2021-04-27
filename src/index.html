@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uber Partners</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -49,7 +50,7 @@
                         <div class="promo__phone-title">Звоните нам ежедневно</div>
                         <div class="promo__phone-number"><a href="tel:+74957970988" class="promo__phone-link">+7 (495) 797 09 88</a></div>
                     </div>
-                    <button class="btn">Заказать звонок</button>
+                    <button class="btn js-open-modal">Заказать звонок</button>
                 </div>
             </div>
         </header>
@@ -64,7 +65,7 @@
                 Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Москва. <br>
                 Водители у нас зарабатывают 80000 - 120000 рублей в месяц.
             </div>
-            <button class="btn promo__btn btn_big">Отправить заявку!</button>
+            <button class="btn promo__btn btn_big js-open-modal">Отправить заявку!</button>
         </div>
     </section>
 
@@ -309,6 +310,84 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="world">
+        <div class="container">
+            <div class="nameplate nameplate_white">Города</div>
+            <h2 class="title title_white">По всему миру</h2>
+            <h2 class="subtitle subtitle_white">Мы в вашем городе и по всему миру</h2>
+            <a class="world__link">Посмотреть все города</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__divider"></div>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__social">
+                    <a href="#" class="footer__social-item">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="footer__social-item">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="footer__social-item">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="footer__social-item">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__links-main">
+                        <a href="#" class="footer__links-main-link">На главную</a>
+                        <a href="#" class="footer__links-main-link">Города</a>
+                        <a href="#" class="footer__links-main-link">Для водителей</a>
+                    </div>
+                    <div class="footer__links-second">
+                        <a href="#" class="footer__links-second-link">Центр поддержки</a>
+                        <a href="#" class="footer__links-second-link">Вакансии</a>
+                        <a href="#" class="footer__links-second-link">Разработчики</a>
+                        <a href="#" class="footer__links-second-link">Блог</a>
+                        <a href="#" class="footer__links-second-link">О нас</a>
+                    </div>
+                    <div class="footer__links-language">
+                        <a href="#" class="footer__links-language-link">Русский</a>
+                    </div>
+                </div>
+                <div class="footer__store">
+                    <div class="footer__store-item">
+                        <a href="#" class="footer__store-item-link">
+                            <img src="img/store_logo/app_store.png" alt="Image">
+                        </a>
+                    </div>
+                    <div class="footer__store-item">
+                        <a href="#" class="footer__store-item-link">
+                            <img src="img/store_logo/google_play.png" alt="Image">
+                        </a>
+                    </div>
+                    <div class="footer__store-item">
+                        <a href="#" class="footer__store-item-link">
+                            <img src="img/store_logo/windows_store.png" alt="Image">
+                        </a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </footer>
+
+    <section class="overlay" id="overlay">
+        <div class="modal" id="call">
+            <div class="modal__close js-modal-close">&times;</div>
+            <div class="modal__subtitle">Укажите Ваши контактные данные:</div>
+            <form action="#" class="modal__form">
+                <input required name="name" type="text" placeholder="Ваше имя...">
+                <input required name="phone" type="text" placeholder="Ваш номер телефона...">
+                <input required name="email" type="email" placeholder="Ваш e-mail...">
+                <button class="btn modal__form-button">Перезвоните мне!</button>
+            </form>
         </div>
     </section>
 

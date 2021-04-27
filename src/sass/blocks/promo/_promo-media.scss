@@ -82,6 +82,7 @@
             }
             &_active {
                 span {
+                    background-color: $second-color;
                     margin-bottom: -4px;
                     &:nth-child(1) {
                         transform: translateY(4px) rotate(-45deg);
