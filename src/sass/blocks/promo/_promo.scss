@@ -10,6 +10,7 @@
         display: none;
     }
     &__menu {
+        z-index: 100;
         background-color: #212121;
         height: 70px;
         width: 101%;
